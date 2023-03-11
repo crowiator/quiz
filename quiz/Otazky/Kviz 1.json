@@ -1,0 +1,101 @@
+[
+    {
+        "otazka": "Ako sa nazýva plynovod, ktorý prechádza cez naše územie?",
+        "obrazok": "01-01-potrubie.jpg",
+        "odpovede": [
+            "Bratstvo",
+            "Rovnosť",
+            "Eustream"
+        ]
+    },
+    
+    {
+        "otazka": "Do koľkých bodov sa hrá tajbreak vo volejbale?",
+        "obrazok": "01-02-volejbal.jpg",
+        "odpovede": [
+            "Pätnásť",
+            "Devätnásť",
+            "Dvadsaťjeden"
+        ]
+    },
+    
+    {
+        "otazka": "V ktorej obci sa nachádzal rímsky vojenský tábor Kelemantia?",
+        "obrazok": "01-03-kelemantia.jpg",
+        "odpovede": [
+            "Iža",
+            "Šajdíkové Humence",
+            "Spišské Podhradie"
+        ]
+    },
+    
+    {
+        "otazka": "Futbalový štadión \"Pod Čebraťom\" leží v ktorom okresnom meste?",
+        "obrazok": "01-04-cebrat.jpg",
+        "odpovede": [
+            "Ružomberok",
+            "Žilina",
+            "Nitra"
+        ]
+    },
+    
+    {
+        "otazka": "V ktorom roku bola na Slovensku vykonaná posledná poprava?",
+        "obrazok": "01-05-poprava.jpg",
+        "odpovede": [
+            "1989",
+            "1979",
+            "1969"
+        ]
+    },
+    
+    {
+        "otazka": "Ako sa volal prvý slovenský dlhometrážny film natočený v roku 1921?",
+        "obrazok": "01-06-film.jpg",
+        "odpovede": [
+            "Jánošík",
+            "Rok na dedine",
+            "Rysavá jalovica"
+        ]
+    },
+    
+    {
+        "otazka": "Alkány, alkény a alkíny zaraďujeme k?",
+        "obrazok": "01-07-uhlovodiky.jpg",
+        "odpovede": [
+            "Uhľovodíkom",
+            "Derivátom",
+            "Kyselinám"
+        ]
+    },
+    
+    {
+        "otazka": "Osoba, ktorá ovláda tesnopis, teda písmo ktoré umožňuje písať rýchlosťou hovorenej reči sa nazýva?",
+        "obrazok": "01-08-stenografia.jpg",
+        "odpovede": [
+            "Stenograf",
+            "Typeface",
+            "Initials"
+        ]
+    },
+    
+    {
+        "otazka": "Ako sa nazýva forma štátu v ktorej má panovník neobmedzenú moc?",
+        "obrazok": "01-09-moc.jpg",
+        "odpovede": [
+            "Absolutistická monarchia",
+            "Diktatúra",
+            "Hologram"
+        ]
+    },
+    
+    {
+        "otazka": "Sútok Bieleho a Čierneho Váhu leží pri obci?",
+        "obrazok": "01-10-lehota.jpg",
+        "odpovede": [
+            "Kráľova Lehota",
+            "Liptovský Hrádok",
+            "Nižná Boca"
+        ]
+    }
+]

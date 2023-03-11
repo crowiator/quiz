@@ -1,0 +1,101 @@
+[
+    {
+        "otazka": "Biele krvinky sa v odbornej terminológii nazývajú?",
+        "obrazok": "05-01-krv.jpg",
+        "odpovede": [
+            "Leukocity",
+            "Trombocity",
+            "Hepacity"
+        ]
+    },
+    
+    {
+        "otazka": "Jazero ľadovcového pôvodu sa nazýva?",
+        "obrazok": "05-02-jazero.jpg",
+        "odpovede": [
+            "Pleso",
+            "Tajch",
+            "Kras"
+        ]
+    },
+    
+    {
+        "otazka": "Myrmekológia sa zaoberá štúdiom?",
+        "obrazok": "05-03-vedci.jpg",
+        "odpovede": [
+            "Mravcov",
+            "Bodavého hmyzu",
+            "Lúčnich koníkov"
+        ]
+    },
+    
+    {
+        "otazka": "Príkladom akého slohu je kostolík sv. Michaela Archanjela v Drážovciach?",
+        "obrazok": "05-04-kostolik.jpg",
+        "odpovede": [
+            "Románskeho",
+            "Renesančného",
+            "Klasicistického"
+        ]
+    },
+    
+    {
+        "otazka": "V ktorom meste má sídlo Univerzita Mateja Bela?",
+        "obrazok": "05-05-umb.jpg",
+        "odpovede": [
+            "Banská Bystrica",
+            "Trnava",
+            "Ružomberok"
+        ]
+    },
+    
+    {
+        "otazka": "Koľko gúl ma pri hre petanque k dispozícii každý hráč?",
+        "obrazok": "05-06-petanque.jpg",
+        "odpovede": [
+            "Tri",
+            "Štyri",
+            "Päť"
+        ]
+    },
+    
+    {
+        "otazka": "Odtlačkami prstov sa zaoberá?",
+        "obrazok": "05-07-odtlacky.jpg",
+        "odpovede": [
+            "Daktyloskopia",
+            "Entomológia",
+            "Balistika"
+        ]
+    },
+    
+    {
+        "otazka": "Vodná nádrž Domaša stojí na akej rieke?",
+        "obrazok": "05-08-domasa.png",
+        "odpovede": [
+            "Ondava",
+            "Topľa",
+            "Hornád"
+        ]
+    },
+    
+    {
+        "otazka": "Aký názov nesie displej s tekutými kryštálmi?",
+        "obrazok": "05-09-rgb.jpg",
+        "odpovede": [
+            "LCD",
+            "Plazma",
+            "Retina"
+        ]
+    },
+    
+    {
+        "otazka": "Slovensko má svoju najkratšiu hranicu s?",
+        "obrazok": "05-10-malicko.jpg",
+        "odpovede": [
+            "Ukrajinou",
+            "Rakúskom",
+            "Maďarskom"
+        ]
+    }
+]

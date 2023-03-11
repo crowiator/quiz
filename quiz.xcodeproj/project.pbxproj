@@ -9,21 +9,139 @@
 /* Begin PBXBuildFile section */
 		13D1201129BB35BB0094F09D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D1201029BB35BB0094F09D /* AppDelegate.swift */; };
 		13D1201329BB35BB0094F09D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D1201229BB35BB0094F09D /* SceneDelegate.swift */; };
-		13D1201529BB35BB0094F09D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D1201429BB35BB0094F09D /* ViewController.swift */; };
+		13D1201529BB35BB0094F09D /* PickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D1201429BB35BB0094F09D /* PickerController.swift */; };
 		13D1201829BB35BB0094F09D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D1201629BB35BB0094F09D /* Main.storyboard */; };
 		13D1201A29BB35BC0094F09D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D1201929BB35BC0094F09D /* Assets.xcassets */; };
 		13D1201D29BB35BC0094F09D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D1201B29BB35BC0094F09D /* LaunchScreen.storyboard */; };
+		13D1202529BB43580094F09D /* KvizController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D1202429BB43580094F09D /* KvizController.swift */; };
+		13D1205F29BB4BB30094F09D /* 03-01-bana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1202729BB4BB30094F09D /* 03-01-bana.jpg */; };
+		13D1206029BB4BB30094F09D /* 03-10-sachy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1202829BB4BB30094F09D /* 03-10-sachy.jpg */; };
+		13D1206129BB4BB30094F09D /* 03-07-metropola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1202929BB4BB30094F09D /* 03-07-metropola.jpg */; };
+		13D1206229BB4BB30094F09D /* 02-02-formula.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1202A29BB4BB30094F09D /* 02-02-formula.jpg */; };
+		13D1206329BB4BB30094F09D /* 01-10-lehota.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1202B29BB4BB30094F09D /* 01-10-lehota.jpg */; };
+		13D1206429BB4BB30094F09D /* 04-05-dedina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1202C29BB4BB30094F09D /* 04-05-dedina.jpg */; };
+		13D1206529BB4BB30094F09D /* 01-07-uhlovodiky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1202D29BB4BB30094F09D /* 01-07-uhlovodiky.jpg */; };
+		13D1206629BB4BB30094F09D /* 02-07-strecno.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1202E29BB4BB30094F09D /* 02-07-strecno.jpg */; };
+		13D1206729BB4BB30094F09D /* 05-08-domasa.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D1202F29BB4BB30094F09D /* 05-08-domasa.png */; };
+		13D1206829BB4BB30094F09D /* 02-08-zuvacka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1203029BB4BB30094F09D /* 02-08-zuvacka.jpg */; };
+		13D1206929BB4BB30094F09D /* 05-10-malicko.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1203129BB4BB30094F09D /* 05-10-malicko.jpg */; };
+		13D1206A29BB4BB30094F09D /* 01-06-film.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1203229BB4BB30094F09D /* 01-06-film.jpg */; };
+		13D1206B29BB4BB30094F09D /* 03-09-psiky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1203329BB4BB30094F09D /* 03-09-psiky.jpg */; };
+		13D1206C29BB4BB30094F09D /* 05-02-jazero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1203429BB4BB30094F09D /* 05-02-jazero.jpg */; };
+		13D1206D29BB4BB30094F09D /* 02-10-hokej.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1203529BB4BB30094F09D /* 02-10-hokej.jpg */; };
+		13D1206E29BB4BB30094F09D /* 03-06-slnko.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1203629BB4BB30094F09D /* 03-06-slnko.jpg */; };
+		13D1206F29BB4BB30094F09D /* 05-09-rgb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1203729BB4BB30094F09D /* 05-09-rgb.jpg */; };
+		13D1207029BB4BB30094F09D /* 01-08-stenografia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1203829BB4BB30094F09D /* 01-08-stenografia.jpg */; };
+		13D1207129BB4BB30094F09D /* 04-01-matematika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1203929BB4BB30094F09D /* 04-01-matematika.jpg */; };
+		13D1207229BB4BB30094F09D /* 02-05-hviezdy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1203A29BB4BB30094F09D /* 02-05-hviezdy.jpg */; };
+		13D1207329BB4BB30094F09D /* 05-06-petanque.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1203B29BB4BB30094F09D /* 05-06-petanque.jpg */; };
+		13D1207429BB4BB30094F09D /* 04-08-kopirka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1203C29BB4BB30094F09D /* 04-08-kopirka.jpg */; };
+		13D1207529BB4BB30094F09D /* 01-09-moc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1203D29BB4BB30094F09D /* 01-09-moc.jpg */; };
+		13D1207629BB4BB30094F09D /* 01-02-volejbal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1203E29BB4BB30094F09D /* 01-02-volejbal.jpg */; };
+		13D1207729BB4BB30094F09D /* 05-01-krv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1203F29BB4BB30094F09D /* 05-01-krv.jpg */; };
+		13D1207829BB4BB30094F09D /* 02-09-dunaj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1204029BB4BB30094F09D /* 02-09-dunaj.jpg */; };
+		13D1207929BB4BB30094F09D /* 02-01-divadlo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1204129BB4BB30094F09D /* 02-01-divadlo.jpg */; };
+		13D1207A29BB4BB30094F09D /* 03-03-virus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1204229BB4BB30094F09D /* 03-03-virus.jpg */; };
+		13D1207B29BB4BB30094F09D /* 03-08-charter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1204329BB4BB30094F09D /* 03-08-charter.jpg */; };
+		13D1207C29BB4BB30094F09D /* 05-04-kostolik.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1204429BB4BB30094F09D /* 05-04-kostolik.jpg */; };
+		13D1207D29BB4BB30094F09D /* 01-03-kelemantia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1204529BB4BB30094F09D /* 01-03-kelemantia.jpg */; };
+		13D1207E29BB4BB30094F09D /* 05-05-umb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1204629BB4BB30094F09D /* 05-05-umb.jpg */; };
+		13D1207F29BB4BB30094F09D /* 01-05-poprava.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1204729BB4BB30094F09D /* 01-05-poprava.jpg */; };
+		13D1208029BB4BB30094F09D /* 03-02-hviezdy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1204829BB4BB30094F09D /* 03-02-hviezdy.jpg */; };
+		13D1208129BB4BB30094F09D /* 01-04-cebrat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1204929BB4BB30094F09D /* 01-04-cebrat.jpg */; };
+		13D1208229BB4BB30094F09D /* 04-07-zverokruh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1204A29BB4BB30094F09D /* 04-07-zverokruh.jpg */; };
+		13D1208329BB4BB30094F09D /* 03-05-pocitanie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1204B29BB4BB30094F09D /* 03-05-pocitanie.jpg */; };
+		13D1208429BB4BB30094F09D /* 04-03-klavir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1204C29BB4BB30094F09D /* 04-03-klavir.jpg */; };
+		13D1208529BB4BB30094F09D /* 04-04-hranica.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1204D29BB4BB30094F09D /* 04-04-hranica.jpg */; };
+		13D1208629BB4BB30094F09D /* 03-04-pes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1204E29BB4BB30094F09D /* 03-04-pes.jpg */; };
+		13D1208729BB4BB30094F09D /* 02-06-macka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1204F29BB4BB30094F09D /* 02-06-macka.jpg */; };
+		13D1208829BB4BB30094F09D /* 01-01-potrubie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1205029BB4BB30094F09D /* 01-01-potrubie.jpg */; };
+		13D1208929BB4BB30094F09D /* 02-03-mesiac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1205129BB4BB30094F09D /* 02-03-mesiac.jpg */; };
+		13D1208A29BB4BB30094F09D /* 05-07-odtlacky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1205229BB4BB30094F09D /* 05-07-odtlacky.jpg */; };
+		13D1208B29BB4BB30094F09D /* 04-10-slepuch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1205329BB4BB30094F09D /* 04-10-slepuch.jpg */; };
+		13D1208C29BB4BB30094F09D /* 04-09-sol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1205429BB4BB30094F09D /* 04-09-sol.jpg */; };
+		13D1208D29BB4BB30094F09D /* 04-06-fotosynteza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1205529BB4BB30094F09D /* 04-06-fotosynteza.jpg */; };
+		13D1208E29BB4BB30094F09D /* 02-04-televizor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1205629BB4BB30094F09D /* 02-04-televizor.jpg */; };
+		13D1208F29BB4BB30094F09D /* 04-02-papier.png in Resources */ = {isa = PBXBuildFile; fileRef = 13D1205729BB4BB30094F09D /* 04-02-papier.png */; };
+		13D1209029BB4BB30094F09D /* 05-03-vedci.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13D1205829BB4BB30094F09D /* 05-03-vedci.jpg */; };
+		13D1209129BB4BB30094F09D /* Kviz 5.json in Resources */ = {isa = PBXBuildFile; fileRef = 13D1205A29BB4BB30094F09D /* Kviz 5.json */; };
+		13D1209229BB4BB30094F09D /* Kviz 4.json in Resources */ = {isa = PBXBuildFile; fileRef = 13D1205B29BB4BB30094F09D /* Kviz 4.json */; };
+		13D1209329BB4BB30094F09D /* Kviz 3.json in Resources */ = {isa = PBXBuildFile; fileRef = 13D1205C29BB4BB30094F09D /* Kviz 3.json */; };
+		13D1209429BB4BB30094F09D /* Kviz 2.json in Resources */ = {isa = PBXBuildFile; fileRef = 13D1205D29BB4BB30094F09D /* Kviz 2.json */; };
+		13D1209529BB4BB30094F09D /* Kviz 1.json in Resources */ = {isa = PBXBuildFile; fileRef = 13D1205E29BB4BB30094F09D /* Kviz 1.json */; };
+		13D1209729BB57070094F09D /* Kviz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D1209629BB57070094F09D /* Kviz.swift */; };
+		13D1209929BB625E0094F09D /* Farby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D1209829BB625E0094F09D /* Farby.swift */; };
+		13D1209B29BB662E0094F09D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D1209A29BB662E0094F09D /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13D1200D29BB35BB0094F09D /* quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D1201029BB35BB0094F09D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13D1201229BB35BB0094F09D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		13D1201429BB35BB0094F09D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13D1201429BB35BB0094F09D /* PickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerController.swift; sourceTree = "<group>"; };
 		13D1201729BB35BB0094F09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13D1201929BB35BC0094F09D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13D1201C29BB35BC0094F09D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13D1201E29BB35BC0094F09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D1202429BB43580094F09D /* KvizController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KvizController.swift; sourceTree = "<group>"; };
+		13D1202729BB4BB30094F09D /* 03-01-bana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03-01-bana.jpg"; sourceTree = "<group>"; };
+		13D1202829BB4BB30094F09D /* 03-10-sachy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03-10-sachy.jpg"; sourceTree = "<group>"; };
+		13D1202929BB4BB30094F09D /* 03-07-metropola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03-07-metropola.jpg"; sourceTree = "<group>"; };
+		13D1202A29BB4BB30094F09D /* 02-02-formula.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02-02-formula.jpg"; sourceTree = "<group>"; };
+		13D1202B29BB4BB30094F09D /* 01-10-lehota.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01-10-lehota.jpg"; sourceTree = "<group>"; };
+		13D1202C29BB4BB30094F09D /* 04-05-dedina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04-05-dedina.jpg"; sourceTree = "<group>"; };
+		13D1202D29BB4BB30094F09D /* 01-07-uhlovodiky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01-07-uhlovodiky.jpg"; sourceTree = "<group>"; };
+		13D1202E29BB4BB30094F09D /* 02-07-strecno.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02-07-strecno.jpg"; sourceTree = "<group>"; };
+		13D1202F29BB4BB30094F09D /* 05-08-domasa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "05-08-domasa.png"; sourceTree = "<group>"; };
+		13D1203029BB4BB30094F09D /* 02-08-zuvacka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02-08-zuvacka.jpg"; sourceTree = "<group>"; };
+		13D1203129BB4BB30094F09D /* 05-10-malicko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05-10-malicko.jpg"; sourceTree = "<group>"; };
+		13D1203229BB4BB30094F09D /* 01-06-film.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01-06-film.jpg"; sourceTree = "<group>"; };
+		13D1203329BB4BB30094F09D /* 03-09-psiky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03-09-psiky.jpg"; sourceTree = "<group>"; };
+		13D1203429BB4BB30094F09D /* 05-02-jazero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05-02-jazero.jpg"; sourceTree = "<group>"; };
+		13D1203529BB4BB30094F09D /* 02-10-hokej.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02-10-hokej.jpg"; sourceTree = "<group>"; };
+		13D1203629BB4BB30094F09D /* 03-06-slnko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03-06-slnko.jpg"; sourceTree = "<group>"; };
+		13D1203729BB4BB30094F09D /* 05-09-rgb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05-09-rgb.jpg"; sourceTree = "<group>"; };
+		13D1203829BB4BB30094F09D /* 01-08-stenografia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01-08-stenografia.jpg"; sourceTree = "<group>"; };
+		13D1203929BB4BB30094F09D /* 04-01-matematika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04-01-matematika.jpg"; sourceTree = "<group>"; };
+		13D1203A29BB4BB30094F09D /* 02-05-hviezdy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02-05-hviezdy.jpg"; sourceTree = "<group>"; };
+		13D1203B29BB4BB30094F09D /* 05-06-petanque.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05-06-petanque.jpg"; sourceTree = "<group>"; };
+		13D1203C29BB4BB30094F09D /* 04-08-kopirka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04-08-kopirka.jpg"; sourceTree = "<group>"; };
+		13D1203D29BB4BB30094F09D /* 01-09-moc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01-09-moc.jpg"; sourceTree = "<group>"; };
+		13D1203E29BB4BB30094F09D /* 01-02-volejbal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01-02-volejbal.jpg"; sourceTree = "<group>"; };
+		13D1203F29BB4BB30094F09D /* 05-01-krv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05-01-krv.jpg"; sourceTree = "<group>"; };
+		13D1204029BB4BB30094F09D /* 02-09-dunaj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02-09-dunaj.jpg"; sourceTree = "<group>"; };
+		13D1204129BB4BB30094F09D /* 02-01-divadlo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02-01-divadlo.jpg"; sourceTree = "<group>"; };
+		13D1204229BB4BB30094F09D /* 03-03-virus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03-03-virus.jpg"; sourceTree = "<group>"; };
+		13D1204329BB4BB30094F09D /* 03-08-charter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03-08-charter.jpg"; sourceTree = "<group>"; };
+		13D1204429BB4BB30094F09D /* 05-04-kostolik.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05-04-kostolik.jpg"; sourceTree = "<group>"; };
+		13D1204529BB4BB30094F09D /* 01-03-kelemantia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01-03-kelemantia.jpg"; sourceTree = "<group>"; };
+		13D1204629BB4BB30094F09D /* 05-05-umb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05-05-umb.jpg"; sourceTree = "<group>"; };
+		13D1204729BB4BB30094F09D /* 01-05-poprava.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01-05-poprava.jpg"; sourceTree = "<group>"; };
+		13D1204829BB4BB30094F09D /* 03-02-hviezdy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03-02-hviezdy.jpg"; sourceTree = "<group>"; };
+		13D1204929BB4BB30094F09D /* 01-04-cebrat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01-04-cebrat.jpg"; sourceTree = "<group>"; };
+		13D1204A29BB4BB30094F09D /* 04-07-zverokruh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04-07-zverokruh.jpg"; sourceTree = "<group>"; };
+		13D1204B29BB4BB30094F09D /* 03-05-pocitanie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03-05-pocitanie.jpg"; sourceTree = "<group>"; };
+		13D1204C29BB4BB30094F09D /* 04-03-klavir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04-03-klavir.jpg"; sourceTree = "<group>"; };
+		13D1204D29BB4BB30094F09D /* 04-04-hranica.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04-04-hranica.jpg"; sourceTree = "<group>"; };
+		13D1204E29BB4BB30094F09D /* 03-04-pes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "03-04-pes.jpg"; sourceTree = "<group>"; };
+		13D1204F29BB4BB30094F09D /* 02-06-macka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02-06-macka.jpg"; sourceTree = "<group>"; };
+		13D1205029BB4BB30094F09D /* 01-01-potrubie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "01-01-potrubie.jpg"; sourceTree = "<group>"; };
+		13D1205129BB4BB30094F09D /* 02-03-mesiac.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02-03-mesiac.jpg"; sourceTree = "<group>"; };
+		13D1205229BB4BB30094F09D /* 05-07-odtlacky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05-07-odtlacky.jpg"; sourceTree = "<group>"; };
+		13D1205329BB4BB30094F09D /* 04-10-slepuch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04-10-slepuch.jpg"; sourceTree = "<group>"; };
+		13D1205429BB4BB30094F09D /* 04-09-sol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04-09-sol.jpg"; sourceTree = "<group>"; };
+		13D1205529BB4BB30094F09D /* 04-06-fotosynteza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "04-06-fotosynteza.jpg"; sourceTree = "<group>"; };
+		13D1205629BB4BB30094F09D /* 02-04-televizor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "02-04-televizor.jpg"; sourceTree = "<group>"; };
+		13D1205729BB4BB30094F09D /* 04-02-papier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "04-02-papier.png"; sourceTree = "<group>"; };
+		13D1205829BB4BB30094F09D /* 05-03-vedci.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "05-03-vedci.jpg"; sourceTree = "<group>"; };
+		13D1205A29BB4BB30094F09D /* Kviz 5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Kviz 5.json"; sourceTree = "<group>"; };
+		13D1205B29BB4BB30094F09D /* Kviz 4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Kviz 4.json"; sourceTree = "<group>"; };
+		13D1205C29BB4BB30094F09D /* Kviz 3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Kviz 3.json"; sourceTree = "<group>"; };
+		13D1205D29BB4BB30094F09D /* Kviz 2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Kviz 2.json"; sourceTree = "<group>"; };
+		13D1205E29BB4BB30094F09D /* Kviz 1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Kviz 1.json"; sourceTree = "<group>"; };
+		13D1209629BB57070094F09D /* Kviz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kviz.swift; sourceTree = "<group>"; };
+		13D1209829BB625E0094F09D /* Farby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Farby.swift; sourceTree = "<group>"; };
+		13D1209A29BB662E0094F09D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +174,90 @@
 		13D1200F29BB35BB0094F09D /* quiz */ = {
 			isa = PBXGroup;
 			children = (
+				13D1209A29BB662E0094F09D /* Extensions.swift */,
+				13D1209829BB625E0094F09D /* Farby.swift */,
+				13D1202629BB4BB30094F09D /* Obrazky */,
+				13D1205929BB4BB30094F09D /* Otazky */,
 				13D1201029BB35BB0094F09D /* AppDelegate.swift */,
 				13D1201229BB35BB0094F09D /* SceneDelegate.swift */,
-				13D1201429BB35BB0094F09D /* ViewController.swift */,
+				13D1201429BB35BB0094F09D /* PickerController.swift */,
+				13D1202429BB43580094F09D /* KvizController.swift */,
+				13D1209629BB57070094F09D /* Kviz.swift */,
 				13D1201629BB35BB0094F09D /* Main.storyboard */,
 				13D1201929BB35BC0094F09D /* Assets.xcassets */,
 				13D1201B29BB35BC0094F09D /* LaunchScreen.storyboard */,
 				13D1201E29BB35BC0094F09D /* Info.plist */,
 			);
 			path = quiz;
+			sourceTree = "<group>";
+		};
+		13D1202629BB4BB30094F09D /* Obrazky */ = {
+			isa = PBXGroup;
+			children = (
+				13D1202729BB4BB30094F09D /* 03-01-bana.jpg */,
+				13D1202829BB4BB30094F09D /* 03-10-sachy.jpg */,
+				13D1202929BB4BB30094F09D /* 03-07-metropola.jpg */,
+				13D1202A29BB4BB30094F09D /* 02-02-formula.jpg */,
+				13D1202B29BB4BB30094F09D /* 01-10-lehota.jpg */,
+				13D1202C29BB4BB30094F09D /* 04-05-dedina.jpg */,
+				13D1202D29BB4BB30094F09D /* 01-07-uhlovodiky.jpg */,
+				13D1202E29BB4BB30094F09D /* 02-07-strecno.jpg */,
+				13D1202F29BB4BB30094F09D /* 05-08-domasa.png */,
+				13D1203029BB4BB30094F09D /* 02-08-zuvacka.jpg */,
+				13D1203129BB4BB30094F09D /* 05-10-malicko.jpg */,
+				13D1203229BB4BB30094F09D /* 01-06-film.jpg */,
+				13D1203329BB4BB30094F09D /* 03-09-psiky.jpg */,
+				13D1203429BB4BB30094F09D /* 05-02-jazero.jpg */,
+				13D1203529BB4BB30094F09D /* 02-10-hokej.jpg */,
+				13D1203629BB4BB30094F09D /* 03-06-slnko.jpg */,
+				13D1203729BB4BB30094F09D /* 05-09-rgb.jpg */,
+				13D1203829BB4BB30094F09D /* 01-08-stenografia.jpg */,
+				13D1203929BB4BB30094F09D /* 04-01-matematika.jpg */,
+				13D1203A29BB4BB30094F09D /* 02-05-hviezdy.jpg */,
+				13D1203B29BB4BB30094F09D /* 05-06-petanque.jpg */,
+				13D1203C29BB4BB30094F09D /* 04-08-kopirka.jpg */,
+				13D1203D29BB4BB30094F09D /* 01-09-moc.jpg */,
+				13D1203E29BB4BB30094F09D /* 01-02-volejbal.jpg */,
+				13D1203F29BB4BB30094F09D /* 05-01-krv.jpg */,
+				13D1204029BB4BB30094F09D /* 02-09-dunaj.jpg */,
+				13D1204129BB4BB30094F09D /* 02-01-divadlo.jpg */,
+				13D1204229BB4BB30094F09D /* 03-03-virus.jpg */,
+				13D1204329BB4BB30094F09D /* 03-08-charter.jpg */,
+				13D1204429BB4BB30094F09D /* 05-04-kostolik.jpg */,
+				13D1204529BB4BB30094F09D /* 01-03-kelemantia.jpg */,
+				13D1204629BB4BB30094F09D /* 05-05-umb.jpg */,
+				13D1204729BB4BB30094F09D /* 01-05-poprava.jpg */,
+				13D1204829BB4BB30094F09D /* 03-02-hviezdy.jpg */,
+				13D1204929BB4BB30094F09D /* 01-04-cebrat.jpg */,
+				13D1204A29BB4BB30094F09D /* 04-07-zverokruh.jpg */,
+				13D1204B29BB4BB30094F09D /* 03-05-pocitanie.jpg */,
+				13D1204C29BB4BB30094F09D /* 04-03-klavir.jpg */,
+				13D1204D29BB4BB30094F09D /* 04-04-hranica.jpg */,
+				13D1204E29BB4BB30094F09D /* 03-04-pes.jpg */,
+				13D1204F29BB4BB30094F09D /* 02-06-macka.jpg */,
+				13D1205029BB4BB30094F09D /* 01-01-potrubie.jpg */,
+				13D1205129BB4BB30094F09D /* 02-03-mesiac.jpg */,
+				13D1205229BB4BB30094F09D /* 05-07-odtlacky.jpg */,
+				13D1205329BB4BB30094F09D /* 04-10-slepuch.jpg */,
+				13D1205429BB4BB30094F09D /* 04-09-sol.jpg */,
+				13D1205529BB4BB30094F09D /* 04-06-fotosynteza.jpg */,
+				13D1205629BB4BB30094F09D /* 02-04-televizor.jpg */,
+				13D1205729BB4BB30094F09D /* 04-02-papier.png */,
+				13D1205829BB4BB30094F09D /* 05-03-vedci.jpg */,
+			);
+			path = Obrazky;
+			sourceTree = "<group>";
+		};
+		13D1205929BB4BB30094F09D /* Otazky */ = {
+			isa = PBXGroup;
+			children = (
+				13D1205A29BB4BB30094F09D /* Kviz 5.json */,
+				13D1205B29BB4BB30094F09D /* Kviz 4.json */,
+				13D1205C29BB4BB30094F09D /* Kviz 3.json */,
+				13D1205D29BB4BB30094F09D /* Kviz 2.json */,
+				13D1205E29BB4BB30094F09D /* Kviz 1.json */,
+			);
+			path = Otazky;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +318,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13D1208329BB4BB30094F09D /* 03-05-pocitanie.jpg in Resources */,
+				13D1209429BB4BB30094F09D /* Kviz 2.json in Resources */,
+				13D1206829BB4BB30094F09D /* 02-08-zuvacka.jpg in Resources */,
+				13D1208629BB4BB30094F09D /* 03-04-pes.jpg in Resources */,
+				13D1207F29BB4BB30094F09D /* 01-05-poprava.jpg in Resources */,
+				13D1206329BB4BB30094F09D /* 01-10-lehota.jpg in Resources */,
+				13D1209529BB4BB30094F09D /* Kviz 1.json in Resources */,
+				13D1209229BB4BB30094F09D /* Kviz 4.json in Resources */,
+				13D1206929BB4BB30094F09D /* 05-10-malicko.jpg in Resources */,
+				13D1207829BB4BB30094F09D /* 02-09-dunaj.jpg in Resources */,
+				13D1208229BB4BB30094F09D /* 04-07-zverokruh.jpg in Resources */,
+				13D1206029BB4BB30094F09D /* 03-10-sachy.jpg in Resources */,
+				13D1208829BB4BB30094F09D /* 01-01-potrubie.jpg in Resources */,
+				13D1206B29BB4BB30094F09D /* 03-09-psiky.jpg in Resources */,
+				13D1206E29BB4BB30094F09D /* 03-06-slnko.jpg in Resources */,
+				13D1208F29BB4BB30094F09D /* 04-02-papier.png in Resources */,
+				13D1207629BB4BB30094F09D /* 01-02-volejbal.jpg in Resources */,
+				13D1206C29BB4BB30094F09D /* 05-02-jazero.jpg in Resources */,
+				13D1206F29BB4BB30094F09D /* 05-09-rgb.jpg in Resources */,
+				13D1206D29BB4BB30094F09D /* 02-10-hokej.jpg in Resources */,
+				13D1207429BB4BB30094F09D /* 04-08-kopirka.jpg in Resources */,
+				13D1207329BB4BB30094F09D /* 05-06-petanque.jpg in Resources */,
+				13D1207C29BB4BB30094F09D /* 05-04-kostolik.jpg in Resources */,
+				13D1209029BB4BB30094F09D /* 05-03-vedci.jpg in Resources */,
+				13D1208B29BB4BB30094F09D /* 04-10-slepuch.jpg in Resources */,
+				13D1208129BB4BB30094F09D /* 01-04-cebrat.jpg in Resources */,
+				13D1206629BB4BB30094F09D /* 02-07-strecno.jpg in Resources */,
+				13D1208C29BB4BB30094F09D /* 04-09-sol.jpg in Resources */,
+				13D1208429BB4BB30094F09D /* 04-03-klavir.jpg in Resources */,
+				13D1207E29BB4BB30094F09D /* 05-05-umb.jpg in Resources */,
+				13D1207B29BB4BB30094F09D /* 03-08-charter.jpg in Resources */,
+				13D1208D29BB4BB30094F09D /* 04-06-fotosynteza.jpg in Resources */,
+				13D1208029BB4BB30094F09D /* 03-02-hviezdy.jpg in Resources */,
+				13D1207D29BB4BB30094F09D /* 01-03-kelemantia.jpg in Resources */,
+				13D1208929BB4BB30094F09D /* 02-03-mesiac.jpg in Resources */,
+				13D1206A29BB4BB30094F09D /* 01-06-film.jpg in Resources */,
 				13D1201D29BB35BC0094F09D /* LaunchScreen.storyboard in Resources */,
+				13D1207129BB4BB30094F09D /* 04-01-matematika.jpg in Resources */,
+				13D1205F29BB4BB30094F09D /* 03-01-bana.jpg in Resources */,
+				13D1208729BB4BB30094F09D /* 02-06-macka.jpg in Resources */,
 				13D1201A29BB35BC0094F09D /* Assets.xcassets in Resources */,
+				13D1207529BB4BB30094F09D /* 01-09-moc.jpg in Resources */,
+				13D1208529BB4BB30094F09D /* 04-04-hranica.jpg in Resources */,
+				13D1208E29BB4BB30094F09D /* 02-04-televizor.jpg in Resources */,
+				13D1209329BB4BB30094F09D /* Kviz 3.json in Resources */,
+				13D1208A29BB4BB30094F09D /* 05-07-odtlacky.jpg in Resources */,
+				13D1207729BB4BB30094F09D /* 05-01-krv.jpg in Resources */,
 				13D1201829BB35BB0094F09D /* Main.storyboard in Resources */,
+				13D1207029BB4BB30094F09D /* 01-08-stenografia.jpg in Resources */,
+				13D1207A29BB4BB30094F09D /* 03-03-virus.jpg in Resources */,
+				13D1207229BB4BB30094F09D /* 02-05-hviezdy.jpg in Resources */,
+				13D1206729BB4BB30094F09D /* 05-08-domasa.png in Resources */,
+				13D1206229BB4BB30094F09D /* 02-02-formula.jpg in Resources */,
+				13D1207929BB4BB30094F09D /* 02-01-divadlo.jpg in Resources */,
+				13D1206529BB4BB30094F09D /* 01-07-uhlovodiky.jpg in Resources */,
+				13D1206429BB4BB30094F09D /* 04-05-dedina.jpg in Resources */,
+				13D1209129BB4BB30094F09D /* Kviz 5.json in Resources */,
+				13D1206129BB4BB30094F09D /* 03-07-metropola.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +386,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13D1201529BB35BB0094F09D /* ViewController.swift in Sources */,
+				13D1201529BB35BB0094F09D /* PickerController.swift in Sources */,
 				13D1201129BB35BB0094F09D /* AppDelegate.swift in Sources */,
+				13D1209729BB57070094F09D /* Kviz.swift in Sources */,
 				13D1201329BB35BB0094F09D /* SceneDelegate.swift in Sources */,
+				13D1209929BB625E0094F09D /* Farby.swift in Sources */,
+				13D1202529BB43580094F09D /* KvizController.swift in Sources */,
+				13D1209B29BB662E0094F09D /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

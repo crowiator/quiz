@@ -1,0 +1,101 @@
+[
+    {
+        "otazka": "Ako sa nazývalo mestské právo, ktoré umožňovalo ťažbu nerastných surovín?",
+        "obrazok": "03-01-bana.jpg",
+        "odpovede": [
+            "Kutacie právo",
+            "Ťažobné právo",
+            "Nerastné právo"
+        ]
+    },
+    
+    {
+        "otazka": "Najbližšia hviezda ku zemi sa nazýva?",
+        "obrazok": "03-02-hviezdy.jpg",
+        "odpovede": [
+            "Slnko",
+            "Andromeda",
+            "Polárka"
+        ]
+    },
+    
+    {
+        "otazka": "Nebunkový organizmus sa nazýva?",
+        "obrazok": "03-03-virus.jpg",
+        "odpovede": [
+            "Vírus",
+            "Ribozóm",
+            "Prvok"
+        ]
+    },
+    
+    {
+        "otazka": "Svetový deň zvierat sa oslavuje v?",
+        "obrazok": "03-04-pes.jpg",
+        "odpovede": [
+            "Októbri",
+            "Júni",
+            "Auguste"
+        ]
+    },
+    
+    {
+        "otazka": "Koľko miliónov sa vôjde do jedného biliónu?",
+        "obrazok": "03-05-pocitanie.jpg",
+        "odpovede": [
+            "milión",
+            "tisíc",
+            "sto"
+        ]
+    },
+    
+    {
+        "otazka": "Ako sa nazýva miera jasnosti nebeských telies?",
+        "obrazok": "03-06-slnko.jpg",
+        "odpovede": [
+            "Magnitúda",
+            "Latitúda",
+            "Heliotúda"
+        ]
+    },
+    
+    {
+        "otazka": "Metropolou regiónu Šariš je?",
+        "obrazok": "03-07-metropola.jpg",
+        "odpovede": [
+            "Prešov",
+            "Spišská nová Ves",
+            "Kežmarok"
+        ]
+    },
+    
+    {
+        "otazka": "Nepravidelný let na objednávku od skupiny cestujúcich alebo cestovnej kancelárie sa nazýva?",
+        "obrazok": "03-08-charter.jpg",
+        "odpovede": [
+            "Charterový",
+            "Destinačný",
+            "Spotflight"
+        ]
+    },
+    
+    {
+        "otazka": "Aké psie plemeno vzniklo skrížením nemeckého ovčiaka a karpatského vlka?",
+        "obrazok": "03-09-psiky.jpg",
+        "odpovede": [
+            "Česko-slovenský vlčiak",
+            "Bavorský farbiar",
+            "Slovenský hrubosrstý stavač"
+        ]
+    },
+    
+    {
+        "otazka": "Remíza v šachu sa nazýva?",
+        "obrazok": "03-10-sachy.jpg",
+        "odpovede": [
+            "Pat",
+            "Rošáda",
+            "Gambit"
+        ]
+    }
+]

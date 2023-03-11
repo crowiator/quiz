@@ -1,0 +1,101 @@
+[
+    {
+        "otazka": "Ako sa nazýva záverečné predstavenie divadelnej hry?",
+        "obrazok": "02-01-divadlo.jpg",
+        "odpovede": [
+            "Derniéra",
+            "Derivácia",
+            "Dekriminácia"
+        ]
+    },
+    
+    {
+        "otazka": "Aký je minimálny počet kilometrov pri pretekoch Veľkej ceny Formuly 1?",
+        "obrazok": "02-02-formula.jpg",
+        "odpovede": [
+            "305",
+            "299",
+            "Nemá minimálny počet kilometrov"
+        ]
+    },
+    
+    {
+        "otazka": "Koľkokrát sa otočí Mesiac okolo svojej osi, kým jedenkrát obehne Zem?",
+        "obrazok": "02-03-mesiac.jpg",
+        "odpovede": [
+            "jedenkrát",
+            "trikrát",
+            "sedemkrát"
+        ]
+    },
+    
+    {
+        "otazka": "Najstaršia zvučka slovenského programu vznikla v roku 1977, aký program uvádza?",
+        "obrazok": "02-04-televizor.jpg",
+        "odpovede": [
+            "Večerníček",
+            "Televízne noviny",
+            "Počasie"
+        ]
+    },
+    
+    {
+        "otazka": "Ktoré súhvezdie na nočnej oblohe má tvar písmena \"W\"",
+        "obrazok": "02-05-hviezdy.jpg",
+        "odpovede": [
+            "Kassiopea",
+            "Drak",
+            "Orion"
+        ]
+    },
+    
+    {
+        "otazka": "Krajina pôvodu mačky domácej je?",
+        "obrazok": "02-06-macka.jpg",
+        "odpovede": [
+            "Egypt",
+            "Palestína",
+            "Libanon"
+        ]
+    },
+    
+    {
+        "otazka": "Hrad Strečno leží v akom pohorí?",
+        "obrazok": "02-07-strecno.jpg",
+        "odpovede": [
+            "Malá Fatra",
+            "Veľká Fatra",
+            "Turiec"
+        ]
+    },
+    
+    {
+        "otazka": "Ktorá surovina je základom pre výrobu žuvačiek a leštidiel?",
+        "obrazok": "02-08-zuvacka.jpg",
+        "odpovede": [
+            "Ropa",
+            "Bauxit",
+            "Methyl"
+        ]
+    },
+    
+    {
+        "otazka": "V ktorom pohorí pramení Dunaj?",
+        "obrazok": "02-09-dunaj.jpg",
+        "odpovede": [
+            "Schwartzwald",
+            "Karwendel",
+            "Šumava"
+        ]
+    },
+    
+    {
+        "otazka": "Ktorý tréner stál za úspechom zlatých medailí z Goteboru 2002?",
+        "obrazok": "02-10-hokej.jpg",
+        "odpovede": [
+            "Ján Filc",
+            "Glen Hanlon",
+            "Vladimír Růžička"
+        ]
+    }
+]

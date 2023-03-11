@@ -1,0 +1,101 @@
+[
+    {
+        "otazka": "Grafom kvadratickej rovnice je?",
+        "obrazok": "04-01-matematika.jpg",
+        "odpovede": [
+            "Parabola",
+            "Sínusoida",
+            "Priamka"
+        ]
+    },
+    
+    {
+        "otazka": "Základná surovina na výrobu papiera sa nazýva?",
+        "obrazok": "04-02-papier.png",
+        "odpovede": [
+            "Buničina",
+            "Drevodrť",
+            "Papyrus"
+        ]
+    },
+    
+    {
+        "otazka": "Koľko liniek má notová osnova?",
+        "obrazok": "04-03-klavir.jpg",
+        "odpovede": [
+            "Päť",
+            "Šesť",
+            "Sedem"
+        ]
+    },
+    
+    {
+        "otazka": "Šahy sú hraničným priechodom s ktorým štátom?",
+        "obrazok": "04-04-hranica.jpg",
+        "odpovede": [
+            "Maďarskom",
+            "Českom",
+            "Poľskom"
+        ]
+    },
+    
+    {
+        "otazka": "V ktorej obci sa nachádza Múzeum liptovskej dediny?",
+        "obrazok": "04-05-dedina.jpg",
+        "odpovede": [
+            "Pribylina",
+            "Stará Ľubovňa",
+            "Vlkolínec"
+        ]
+    },
+    
+    {
+        "otazka": "Ktorý plyn potrebujú rastliny k fotosyntéze?",
+        "obrazok": "04-06-fotosynteza.jpg",
+        "odpovede": [
+            "Oxid uhličitý",
+            "Kyslík",
+            "Dusík"
+        ]
+    },
+    
+    {
+        "otazka": "Ak sa niekto narodí na deň detí, aké je jeho znamenie zverokruhu?",
+        "obrazok": "04-07-zverokruh.jpg",
+        "odpovede": [
+            "Blíženci",
+            "Rak",
+            "Lev"
+        ]
+    },
+    
+    {
+        "otazka": "Ako sa zvykol nazývať kopírovací papier?",
+        "obrazok": "04-08-kopirka.jpg",
+        "odpovede": [
+            "Indigo",
+            "Ploter",
+            "Redigo"
+        ]
+    },
+    
+    {
+        "otazka": "V ktorom meste sa ťaží soľ?",
+        "obrazok": "04-09-sol.jpg",
+        "odpovede": [
+            "Prešov",
+            "Trenčín",
+            "Nitra"
+        ]
+    },
+    
+    {
+        "otazka": "Akým sôpsobom sa pohybuje slepúch?",
+        "obrazok": "04-10-slepuch.jpg",
+        "odpovede": [
+            "plazením",
+            "skákaním",
+            "kráčaním"
+        ]
+    }
+]
